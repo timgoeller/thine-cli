@@ -1,0 +1,24 @@
+{
+  "name": "thine-cli",
+  "version": "1.0.0",
+  "description": "Thine package manager cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Göller",
+  "license": "AGPL-3.0-or-later",
+  "bin": {
+    "thine": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.0.0",
+    "fse": "^4.0.1",
+    "parse-gitignore": "^1.0.1",
+    "thine-core": "^0.0.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
